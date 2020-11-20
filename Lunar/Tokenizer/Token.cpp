@@ -19,3 +19,7 @@ std::cmatch Token::CMatch(const char* ch) {
 	std::regex_match(ch, cm, re);
 	return cm;
 }
+
+std::regex Token::GetRegex() {
+	return re;
+}

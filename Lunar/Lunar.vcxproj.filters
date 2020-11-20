@@ -3,20 +3,20 @@
   <ItemGroup>
     <ClCompile Include="Lunar.cpp" />
     <ClCompile Include="Utils.cpp" />
-    <ClCompile Include="FileNotFoundException.cpp">
-      <Filter>Exceptions</Filter>
-    </ClCompile>
-    <ClCompile Include="Tokenizer.cpp">
+    <ClCompile Include="Tokenizer\Tokenizer.cpp">
       <Filter>Tokenizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptions\FileNotFoundException.cpp">
+      <Filter>Exceptions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lunar.h" />
-    <ClInclude Include="Exceptions.h">
-      <Filter>Exceptions</Filter>
-    </ClInclude>
-    <ClInclude Include="Tokenizer.h">
+    <ClInclude Include="Tokenizer\Tokenizer.h">
       <Filter>Tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\Exceptions.h">
+      <Filter>Exceptions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

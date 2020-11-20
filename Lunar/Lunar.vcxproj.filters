@@ -6,16 +6,25 @@
     <ClCompile Include="FileNotFoundException.cpp">
       <Filter>Exceptions</Filter>
     </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Tokenizer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lunar.h" />
     <ClInclude Include="Exceptions.h">
       <Filter>Exceptions</Filter>
     </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Tokenizer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Exceptions">
       <UniqueIdentifier>{ce72c0c2-5bf4-4845-af7a-9862e7108957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tokenizer">
+      <UniqueIdentifier>{2fde8820-c28b-45d1-95e4-33b60c6ca6cd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

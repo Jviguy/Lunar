@@ -8,7 +8,7 @@ int main(int argc, char* args[]) {
 	}
 	try {
 		auto file = Lunar::Utils::FindUsableFile(args[1]);
-		Lunar::Utils::Warning(file.c_str());
+
 	} catch (Lunar::Exceptions::FileNotFoundException e) {
 		Lunar::Utils::Error(e.Error());
 	}

@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="FileNotFoundException.cpp" />
     <ClCompile Include="Lunar.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exceptions.h" />
     <ClInclude Include="Lunar.h" />
+    <ClInclude Include="Tokenizer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

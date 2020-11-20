@@ -4,6 +4,7 @@
 #include <windows.h>
 #include <sys/stat.h>
 #include <direct.h>
+#include "Tokenizer/Tokenizer.h"
 #define GetCurrentDir _getcwd
 
 namespace Lunar {

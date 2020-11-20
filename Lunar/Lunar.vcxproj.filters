@@ -9,6 +9,9 @@
     <ClCompile Include="Exceptions\FileNotFoundException.cpp">
       <Filter>Exceptions</Filter>
     </ClCompile>
+    <ClCompile Include="Tokenizer\Token.cpp">
+      <Filter>Tokenizer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lunar.h" />
@@ -17,6 +20,9 @@
     </ClInclude>
     <ClInclude Include="Exceptions\Exceptions.h">
       <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer\Token.h">
+      <Filter>Tokenizer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

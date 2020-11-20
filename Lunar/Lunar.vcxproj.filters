@@ -12,6 +12,9 @@
     <ClCompile Include="Tokenizer\Token.cpp">
       <Filter>Tokenizer</Filter>
     </ClCompile>
+    <ClCompile Include="Exceptions\UnkownTokenException.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lunar.h" />

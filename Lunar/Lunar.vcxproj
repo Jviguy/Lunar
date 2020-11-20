@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Exceptions\FileNotFoundException.cpp" />
+    <ClCompile Include="Exceptions\UnkownTokenException.cpp" />
     <ClCompile Include="Lunar.cpp" />
     <ClCompile Include="Tokenizer\Token.cpp" />
     <ClCompile Include="Tokenizer\Tokenizer.cpp" />

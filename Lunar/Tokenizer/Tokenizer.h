@@ -1,8 +1,17 @@
 #pragma once
 #include "Token.h"
+#include <map>
 
 namespace Lunar {
 	namespace Tokenizer {
+		class Tokenizer {
+		public:
+			Tokenizer();
+			//returns a instance of the token of that value or throws an exception
+			Token GetToken(int name);
+		private:
+			std::map<int, Token> Tokens;
+		};
 		enum BaseTokens
 		{
 			kw_if,

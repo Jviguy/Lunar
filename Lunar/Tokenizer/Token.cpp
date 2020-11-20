@@ -2,9 +2,9 @@
 
 using namespace Lunar::Tokenizer;
 
-Token::Token(std::string chr,std::regex regex) {
+Token::Token(int t,std::regex regex) {
 	re = regex;
-	character = chr;
+	type = t;
 }
 
 std::smatch Token::Match(std::string s)

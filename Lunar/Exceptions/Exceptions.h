@@ -8,8 +8,11 @@ namespace Lunar {
 		{
 		public:
 			const char* Error() const throw ();
-		protected:
-		private:
+		};
+		class UnknownTokenException : public std::exception
+		{
+		public:
+			const char* Error() const throw ();
 		};
 	}
 }
